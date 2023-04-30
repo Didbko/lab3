@@ -1,5 +1,4 @@
 #!/bin/bash
-cd /home/grid/testbed/tb188/lab
 ml icc
 arr = ("fpu" "vme" "de" "pse" "tsc" "msr" "pae")
 for i in "${arr[@]}"; do
